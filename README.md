@@ -37,7 +37,8 @@ U4         1        SN74F245N         IC DIP20 W7.62mm 74F245 - Octal Transceive
 
 ## Assembly
 
-B02 - CPU Phase 2 Clock Output, /D1xx - Chip select at area $D100 - $D1FF
+- B02 - CPU Phase 2 Clock Output
+- /D1xx - Chip select at area $D100 - $D1FF
 
 XL:
 ```
@@ -52,9 +53,9 @@ B02   - Cartridge port - pin S (30)
 ```
 
 Reference:
-http://www.hardwarebook.info/Enhanced_Cartridge_Interface
-http://www.hardwarebook.info/Atari_Parallel_Bus_Interface
-http://www.hardwarebook.info/Atari_8-bit_Cartridge
+- http://www.hardwarebook.info/Enhanced_Cartridge_Interface
+- http://www.hardwarebook.info/Atari_Parallel_Bus_Interface
+- http://www.hardwarebook.info/Atari_8-bit_Cartridge
 
 
 ## Partitioning CF card
