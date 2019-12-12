@@ -8,7 +8,7 @@ Design assumptions:
 - Possibility to use the shortest possible IDE 44 cable thanks to the conveniently placed connector
 - CPU output signals for U1MB (Phi2, R/W, RST, HLT) with the same pinout as in Ulitmate 1MB module
 - Connector for: Activity LED, Swap Button, Swap LED (optional)
-- Connector for signals from motherboard: $D100 and BO2
+- Connector for signals from motherboard: $D100 and B02
 - PCB versions matching XL and XE series (Atari 800 XL, Atari 65/130/800 XE with ECI port)
 - Probably future adaptation to 600/1200 XL
 
@@ -36,6 +36,25 @@ U4         1        SN74F245N         IC DIP20 W7.62mm 74F245 - Octal Transceive
 
 
 ## Assembly
+
+B02 - CPU Phase 2 Clock Output, /D1xx - Chip select at area $D100 - $D1FF
+
+XL:
+```
+B02   - PBI connector - pin 31 / Cartridge port - pin S (30)
+/D1xx - U2 (74L138) - pin 14 (not connected)
+```
+
+XE:
+```
+B02   - Cartridge port - pin S (30)
+/D1XX - ECI port - pin 3
+```
+
+Reference:
+http://www.hardwarebook.info/Enhanced_Cartridge_Interface
+http://www.hardwarebook.info/Atari_Parallel_Bus_Interface
+http://www.hardwarebook.info/Atari_8-bit_Cartridge
 
 
 ## Partitioning CF card
