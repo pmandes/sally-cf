@@ -8,7 +8,7 @@ Design assumptions:
 - Possibility to use the shortest possible IDE 44 cable thanks to the conveniently placed connector
 - CPU output signals for U1MB (Phi2, R/W, RST, HLT) with the same pinout as in Ulitmate 1MB module
 - Connector for: Activity LED, Swap Button, Swap LED (optional)
-- Connector for signals from motherboard: $D100 and B02
+- Connector for signals from motherboard: /$D1xx and B02
 - PCB versions matching XL and XE series (Atari 800 XL, Atari 65/130/800 XE with ECI port)
 - Probably future adaptation to 600/1200 XL
 
