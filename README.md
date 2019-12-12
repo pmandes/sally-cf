@@ -5,7 +5,7 @@ Design assumptions:
 - Identical functionality to XEL-CF
 - Easy DIY assembly thanks to THT components
 - Compatibility with as many CF cards as possible (and SD/microSD card adapters)
-- Possibility to use the shortest possible IDE cable thanks to the conveniently placed connector
+- Possibility to use the shortest possible IDE 44 cable thanks to the conveniently placed connector
 - CPU output signals for U1MB (Phi2, R/W, RST, HLT) with the same pinout as in Ulitmate 1MB module
 - Connector for: Activity LED, Swap Button, Swap LED (optional)
 - Connector for signals from motherboard: $D100 and BO2
