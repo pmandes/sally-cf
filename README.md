@@ -37,19 +37,19 @@ U4         1        SN74F245N         IC DIP20 W7.62mm 74F245 - Octal Transceive
 
 ## Assembly
 
-- B02 - CPU Phase 2 Clock Output
+- B02 - Gated Phase 2 Clock
 - /D1xx - Chip select at area $D100 - $D1FF
 
 XL:
 ```
-B02   - PBI connector - pin 31 / Cartridge port - pin S (30)
+B02   - PBI connector - pin 31 | Cartridge port - pin S (30) | U7 (ANTIC) - pin 29 | U18 (74LS08) - pin 11
 /D1xx - U2 (74L138) - pin 14 (not connected)
 ```
 
 XE:
 ```
 B02   - Cartridge port - pin S (30)
-/D1XX - ECI port - pin 3
+/D1xx - ECI port - pin 3
 ```
 
 Reference:
